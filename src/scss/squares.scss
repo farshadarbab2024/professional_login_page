@@ -1,0 +1,25 @@
+@import "./variables.scss" ; 
+
+$square_width: 69px ;
+
+#squares_container{ 
+    display: grid ;
+    position: absolute ;
+    top: 0 ;
+    left: -20px ; 
+    width: 130vw ; 
+    height: 110vh ; 
+    grid-template-columns: repeat(auto-fill, minmax($square_width, 1fr)) ;
+    gap: 2px;  
+}
+.square{
+    aspect-ratio: 1 / 1;
+    width: 100%  ;
+    height: 100%  ;
+    background-color: #201c1c ;
+}
+
+.square:hover{
+    background-color: $blue ;
+    box-shadow: 0px 0px 17px $blue ; 
+}
