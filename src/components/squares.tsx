@@ -17,8 +17,8 @@ function Squares(){
           squares.map((_, index) => (
             <div key={"square" + index}
             className="square"
-            onMouseOver={(e) => handleMouseOverTransition(e)}
-            onMouseLeave={(e) => handleMouseLeaveTransition(e)}
+            onMouseOver={handleMouseOverTransition}
+            onMouseLeave={handleMouseLeaveTransition}
             >
 
             </div>

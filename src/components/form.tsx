@@ -9,19 +9,19 @@ function Form(){
 
             <div className="relative mt-5">
                 <input type="text" className="input" id="username_input" placeholder="" />
-                <label id="username_label">Username</label>
+                <label id="username_label" htmlFor="username_input">Username</label>
             </div>
 
             <div className="relative mt-5">
                 <input type="password" className="input" id="password_input" placeholder="" />
-                <label id="password_label">Password</label>
+                <label id="password_label" htmlFor="password_input">Password</label>
             </div>
 
             <div className="flex justify-between mt-5">
                 <a href="#" className="light-gray-color">Forgot Password</a>
                 <a href="#" className="blue-color">Signup</a>
             </div>
-            <input type="button" value="Login" id="login_button" />
+            <input type="submit" value="Login" id="login_button" />
         </form>
     ) ; 
 }
