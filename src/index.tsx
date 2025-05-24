@@ -3,12 +3,14 @@ import React from "react" ;
 import './scss/index.scss';
 import Rectangles from "./components/rectangles" ; 
 import Squares from "./components/squares" ; 
+import Form from "./components/form" ; 
 
 function LoginPage(){
-  return(
-    <section id="container" className="z-0">
+  return( 
+    <section className="z-0 relative w-screen h-screen">
       <Rectangles />
       <Squares />
+      <Form />
     </section>
   ) ;
 }

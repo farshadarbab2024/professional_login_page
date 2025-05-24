@@ -1,0 +1,79 @@
+@import "./variables.scss" ;
+
+#title{
+    text-align: center ;
+    color: $blue ;
+    font-size: 2rem ;
+    margin: 1rem 0rem ;
+    font-weight: bold ;
+}
+
+.input{
+    background-color: $gray_black2 ;
+    display: block ;
+    margin: auto ; 
+    padding: 1rem 1rem 0.3rem 1rem ;
+    color: $light_gray ;
+    border-radius: 5px;
+    width: 100% ;
+    font-size: $text_size ;
+}
+
+.input:focus{
+    outline: none ;
+    border: none ;
+    color: $dark_white ; 
+}
+
+form{
+    position: absolute ;
+    z-index: 40 ;
+    background-color: $gray_black ;
+    width: 350px ;
+    height: 370px ;
+    top: 50% ;
+    right: 50% ; 
+    transform: translate(50%, -50%) ; 
+    box-shadow: 0px 0px 13px rgb(5, 5, 5) ;
+    border-radius: 7px;
+    padding: 0.6rem 2rem ;
+}
+
+#username_label, #password_label{
+    position: absolute ;
+    left: 1rem ;
+    top: 50% ;
+    transform: translateY(-50%) ; 
+    color: $gray ;
+    transition: 0.3s ; 
+    font-size: 1rem ;
+}
+
+#username_input:focus + #username_label, #username_input:not(:placeholder-shown) + #username_label{
+    top: 0.6rem ;
+    color: $light_gray ; 
+    font-size: 0.7rem ;
+}
+
+#password_input:focus + #password_label, #password_input:not(:placeholder-shown) + #password_label{
+    top: 0.6rem ;
+    color: $light_gray ;
+    font-size: 0.7rem ;
+}
+
+#login_button{
+    width: 100% ; 
+    background-color: $blue ;
+    padding: 0.5rem 0rem ;
+    margin-top: 20px ;  
+    border-radius: 5px ; 
+    font-size: 1.1rem ;
+    font-weight: bold ;
+    color: $gray_black ; 
+    cursor: pointer ; 
+    transition: 0.2s ;
+}
+
+#login_button:hover{
+    background-color: $blue_hover;
+}

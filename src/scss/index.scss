@@ -19,6 +19,18 @@ body{
     overflow: hidden ; 
 }
 
-#container{
-    position: relative ;
+.bg-gray-black{
+    background-color: $gray_black ;
+}
+
+.bg-gray-black2{
+    background-color: $gray_black2;
+}
+
+.blue-color{
+    color: $blue 
+}
+
+.light-gray-color{
+    color: $light_gray ; 
 }
