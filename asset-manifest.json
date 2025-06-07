@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/farshadarbab2024/professional_login_page/static/css/main.38004b19.css",
-    "main.js": "/farshadarbab2024/professional_login_page/static/js/main.b4685eb2.js",
-    "index.html": "/farshadarbab2024/professional_login_page/index.html",
-    "main.38004b19.css.map": "/farshadarbab2024/professional_login_page/static/css/main.38004b19.css.map",
-    "main.b4685eb2.js.map": "/farshadarbab2024/professional_login_page/static/js/main.b4685eb2.js.map"
+    "main.css": "/professional_login_page/static/css/main.38004b19.css",
+    "main.js": "/professional_login_page/static/js/main.b4685eb2.js",
+    "index.html": "/professional_login_page/index.html",
+    "main.38004b19.css.map": "/professional_login_page/static/css/main.38004b19.css.map",
+    "main.b4685eb2.js.map": "/professional_login_page/static/js/main.b4685eb2.js.map"
   },
   "entrypoints": [
     "static/css/main.38004b19.css",
