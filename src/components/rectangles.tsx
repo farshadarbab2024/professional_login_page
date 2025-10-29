@@ -1,7 +1,9 @@
+// Turn on rectangles one after another, moving from top to bottom
+
+
 import React, {useState, useEffect, useRef} from "react" ; 
 import "../scss/rectangles.scss" ; 
 import { variables } from "./variables.js" ;
-
 
 function Rectangles(){
     let plusWithRef = useRef(1) ;
@@ -20,8 +22,6 @@ function Rectangles(){
     
     useEffect(() => {
         const interval = setTimeout(() => {
-            console.log(selectedRectangle) ;  //delete
-            console.log(plusWithRef.current) ; //delete
             if((selectedRectangle >= (numberOfRectangles + numberOfActiveRectangles) && (plusWithRef.current === 1)) || (selectedRectangle < -numberOfActiveRectangles-4 && plusWithRef.current === -1)){ //when reached to end, come back
                 plusWithRef.current = (-1) * plusWithRef.current ;
             }
