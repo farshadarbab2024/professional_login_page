@@ -1,5 +1,5 @@
 # Secret Theme Login Page
-This is a functional login page with a Secret theme, built using JavaScript, CSS, and HTML.
+This is a practical login page with a Secret theme, built using JavaScript, CSS, and HTML.
 
 ![first view screenshot](https://github.com/farshadarbab2024/professional_login_page/blob/main/public/screenshots/secret-them-login-page.png)  
 
